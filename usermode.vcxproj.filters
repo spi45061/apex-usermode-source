@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{f3a75d51-4431-4cd7-80b3-24774d55f1fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SDK\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="SDK\Imgui">
+      <UniqueIdentifier>{45704368-4c91-471c-a6b0-cca1564f9716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Overlay Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SDK\Connection">
+      <UniqueIdentifier>{43cea7e9-8a23-4402-b59f-e6610b27bb13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sinmapper">
+      <UniqueIdentifier>{6e7efd68-b8d1-48a8-8e2e-98bdc2f56da0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>SDK\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_demo.cpp">
+      <Filter>SDK\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>SDK\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx11.cpp">
+      <Filter>SDK\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>SDK\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_tables.cpp">
+      <Filter>SDK\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>SDK\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="comms.cpp">
+      <Filter>SDK\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>SDK\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sinmapper\drv_image.cpp">
+      <Filter>sinmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="sinmapper\vdm_ctx.cpp">
+      <Filter>sinmapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>SDK\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay.h">
+      <Filter>SDK\Overlay Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowHijacking.h">
+      <Filter>SDK\Overlay Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework.h">
+      <Filter>SDK\Overlay Files</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt.h">
+      <Filter>SDK\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>SDK\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>SDK\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx11.h">
+      <Filter>SDK\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.h">
+      <Filter>SDK\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>SDK\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>SDK\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>SDK\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>SDK\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>SDK\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>SDK\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>SDK\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeroGui.h">
+      <Filter>SDK\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>SDK\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Design.h">
+      <Filter>SDK\Overlay Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comms.h">
+      <Filter>SDK\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="lib.hpp">
+      <Filter>SDK\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets2.h">
+      <Filter>SDK\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xor2.h">
+      <Filter>SDK\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coolinput.h">
+      <Filter>SDK\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fortnite-updated-source-main_1\fortnite-updated-source-main\reverse\xstring.h">
+      <Filter>SDK\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vec.h">
+      <Filter>SDK\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>SDK\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>SDK\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sinmapper\drv_image.hpp">
+      <Filter>sinmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="sinmapper\loadup.hpp">
+      <Filter>sinmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="sinmapper\nt.hpp">
+      <Filter>sinmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="sinmapper\raw_driver.hpp">
+      <Filter>sinmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="sinmapper\util.hpp">
+      <Filter>sinmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="sinmapper\vdm.hpp">
+      <Filter>sinmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="sinmapper\vdm_ctx.hpp">
+      <Filter>sinmapper</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

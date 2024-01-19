@@ -24,3 +24,5 @@
 
 (Patch 1.0.3 - 1/23/2023)
 - Experimentally added no spread and bullet tp
+
+Disclaimer: ****FOR EDUCATIONAL PURPOSE***** not liable for what is done with this source.
